@@ -4,7 +4,7 @@
   "description": "用Vue.js 重写Cnodejs社区",
   "main": "index.html",
   "scripts": {
-    "start": "npm run dist && npm run server && start http://localhost:8090",
+    "start": "npm run dist && npm run server && start http://localhost:8082",
     "dev": "webpack --progress --profile --colors",
     "dist": "cross-env NODE_ENV=development gulp",
     "build": "cross-env NODE_ENV=production gulp",
